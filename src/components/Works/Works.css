@@ -50,10 +50,15 @@
     margin: 0.5rem; */
     height: 28rem;
     margin: 2rem 1rem;
+    border-radius: 0.5rem;
     /* width: 85%; */
     /* padding:0.5rem; */
     /* border:1px solid #fff; */
     /* background: rgb(40,40,40); */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    &&:hover{
+        transform: scale(1.05);
+    }
 
 }
 

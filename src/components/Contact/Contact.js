@@ -30,9 +30,9 @@ export const Contact = () => {
                 </h1>
                 <span className='contactDesc'>
                     <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                        <input type='text' className='name' placeholder='Your Name' name='your_name' />
-                        <input type='email' className='email' placeholder='Your Email' name='your_email' />
-                        <textarea name='message' rows={5} className='msg' placeholder='Your message ' />
+                        <input type='text' className='name' placeholder='Your Name' name='your_name' required />
+                        <input type='email' className='email' placeholder='Your Email' name='your_email' required />
+                        <textarea name='message' rows={5} className='msg' placeholder='Your message ' required />
                         <button className='submitBtn' type='submit' value='Send'>
                             Submit
                         </button>

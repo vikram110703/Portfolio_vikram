@@ -21,6 +21,9 @@ export const Navbar = () => {
         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>
           Contact
         </Link>
+        <a href='https://drive.google.com/file/d/1VMzrkc-ikWf-wO2O0zkOOQYo_kmyMI1p/view?usp=drive_link' target='blank' className='desktopMenuListItem'>
+          Resume
+        </a>
       </div>
 
 

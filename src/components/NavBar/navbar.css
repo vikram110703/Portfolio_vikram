@@ -1,48 +1,53 @@
-.navbar{
+.navbar {
     /* background:rgb(30,30,30) ; */
     background-color: black;
     height: 7rem;
-     width: 100vw;
-     margin: 0  auto;
-     /* max-width: 75rem ; */
+    width: 100vw;
+    margin: 0 auto;
+    /* max-width: 75rem ; */
 
-     padding: 1rem 2rem;
-     display: flex;
-     align-items: center;
-     justify-content:space-between ;
-     position: sticky;
-     top:0;
-     z-index: 3;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 
 }
-.logo{
-        width: auto;
-        object-fit: cover;
-        /* padding-top: 1rem; */
-        height: 4rem;
-        margin-top: 0.5rem;
+
+.logo {
+    width: auto;
+    object-fit: cover;
+    /* padding-top: 1rem; */
+    height: 4rem;
+    margin-top: 0.5rem;
 }
-.desktopMenuListItem{
+
+.desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
 }
-.desktopMenuListItem:hover{
-    color:yellow;
+
+.desktopMenuListItem:hover {
+    color: yellow;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }
-.desktopMenuBtn{
+
+.desktopMenuBtn {
     background: white;
     color: black;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:0 1rem;
+    padding: 0 1rem;
     border-radius: 2rem;
-    cursor:pointer;
+    cursor: pointer;
 }
-.desktopMenuImg{
+
+.desktopMenuImg {
     /* background-color: white; */
     object-fit: cover;
     height: 1rem;
@@ -50,47 +55,57 @@
     margin: 1rem;
 
 }
-.active{
- color: yellow;   
- padding-bottom: 0.5rem;
- border-bottom: 3px solid yellow;
+
+.active {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
 }
 
 
 /* mobile menu  */
-.mobMenu{
+.mobMenu {
     display: none;
     object-fit: cover;
     height: 1rem;
 }
-.navMenu{
-    position:absolute;
-    top:4rem;
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
     right: 2rem;
-    z-index:2;
+    z-index: 2;
     display: flex;
     flex-direction: column;
-    padding:0.5rem;
+    padding: 0.5rem;
     height: fit-content;
     min-width: 15rem;
-    background: rgb(40,40,40);
+    background: rgb(40, 40, 40);
     border-radius: 1rem;
 }
-.listItem{
-    color:white;
-    padding:0.5rem 3rem;
+
+.listItem {
+    color: white;
+    padding: 0.5rem 3rem;
     margin: 0.25rem;
-    background: rgb(30,30,30);
+    background: rgb(30, 30, 30);
 }
 
+a {
+    color: white;
+}
+
+
 @media screen and (max-width:720px) {
-    .mobMenu{
+    .mobMenu {
         display: flex;
     }
-    .desktopMenu{
+
+    .desktopMenu {
         display: none;
     }
-    .desktopMenuBtn{
+
+    .desktopMenuBtn {
         display: none;
     }
 }
